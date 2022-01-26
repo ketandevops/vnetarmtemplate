@@ -4,6 +4,9 @@
     "parameters": {
         "virtualNetworks_VNet1_name": {
             "value": null
+        },
+        "location_name": {
+            "value": null
         }
     }
 }
