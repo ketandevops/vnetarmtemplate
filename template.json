@@ -13,7 +13,7 @@
             "type": "Microsoft.Network/virtualNetworks",
             "apiVersion": "2020-11-01",
             "name": "[parameters('virtualNetworks_VNet1_name')]",
-            "location": "westus2",
+            "location": "eastus",
             "properties": {
                 "addressSpace": {
                     "addressPrefixes": [
