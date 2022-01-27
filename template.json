@@ -7,6 +7,11 @@
             "type": "String"
         }
     },
+        "location_name": {
+            "defaultValue": "westus2",
+            "type": "String"
+        }
+    },
     "variables": {},
     "resources": [
         {
