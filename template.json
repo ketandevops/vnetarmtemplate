@@ -6,7 +6,6 @@
             "defaultValue": "VNet1",
             "type": "String"
         }
-    }
         "location_name": {
             "defaultValue": "westus2",
             "type": "String"
