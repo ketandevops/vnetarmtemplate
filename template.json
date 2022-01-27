@@ -6,10 +6,6 @@
             "defaultValue": "VNet1",
             "type": "String"
         }
-        "location_name": {
-            "defaultValue": "westus2",
-            "type": "String"
-        }
     },
     "variables": {},
     "resources": [
@@ -17,7 +13,7 @@
             "type": "Microsoft.Network/virtualNetworks",
             "apiVersion": "2020-11-01",
             "name": "[parameters('virtualNetworks_VNet1_name')]",
-            "location": "eastus",
+            "location": "westus2",
             "properties": {
                 "addressSpace": {
                     "addressPrefixes": [
